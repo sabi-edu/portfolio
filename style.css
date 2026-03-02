@@ -366,6 +366,10 @@ footer {
         flex-direction: column;
     }
 
+    #mail address {
+        top: 19px;
+    }
+
     #about-main {
         display: flex;
         gap: 20px;
