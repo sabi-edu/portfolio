@@ -72,8 +72,8 @@ h3 {
 
 .inner-page header {
     background: url(images/inner-page-banner.png);
+    min-width: 100vw;
     padding-bottom: 20px;
-    background-repeat: no-repeat;
     background-size: cover;
 }
 
