@@ -127,6 +127,10 @@ nav ul li a:hover, .inner-page .name a:hover {
     line-height: 30px;
 }
 
+#home-page-main #skills {
+    font-size: 1.1em;
+}
+
 .home-page footer {
     color: #328157;
 }
@@ -224,6 +228,28 @@ nav ul li a:hover, .inner-page .name a:hover {
 
 #game-art a, #itch a, .about-info i {
     color: white;
+}
+
+#video-main {
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+#video-main a img{
+    transition: .2s;
+}
+
+#video-main a img:hover{
+    transform: scale(1.1);
+}
+
+#video-main p {
+    max-width: 300px;
 }
 
 #about-main {
@@ -364,6 +390,12 @@ footer {
     .project-images {
         display: flex;
         flex-direction: column;
+    }
+    
+    #video-main {
+        margin-top: 10%;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
     #mail address {
