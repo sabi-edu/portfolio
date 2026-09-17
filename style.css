@@ -28,6 +28,9 @@
   font-style: italic;
 }
 
+
+/* --------- */
+
 body {
     max-width: 1146px;
 }
@@ -42,13 +45,13 @@ body {
 
 .inner-page {
     background: none;
-    background-color: #3E3E3E;
+    background-color: #D7F5FF;
     font-family: "Cambay", sans-serif;
 }
 
 .h1-container {
-    margin-left: 10px;
-    color: #328157;
+    text-align: center;
+    color: #3fb7df;
 }
 
 h1 {
@@ -67,11 +70,11 @@ h3 {
 }
 
 .inner-page p, .inner-page a, .inner-page ul li, .inner-page h2, .inner-page h3, .multimedia-main section a, .about-page h3, .about-page p, #about-main sub, footer {
-    color: white;
+    color: #3fb7df;
 }
 
 .inner-page header {
-    background: url(images/inner-page-banner.png);
+    background: url(images/divider-panel.png);
     min-width: 100vw;
     padding-bottom: 20px;
     background-size: cover;
@@ -86,16 +89,17 @@ nav ul {
 
 nav ul li a {
     text-decoration: none;
-    color: #328157;
+    color: #3fb7df;
 }
 
-/* why hover only working on click? */
 nav ul li a:hover, .inner-page .name a:hover {
-    background: #AFEA9D;
+    background: #3fb7df;
     border-radius: 3px;
-    color: white;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    color: #D7F5FF;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 #home-page-main {
@@ -137,7 +141,7 @@ nav ul li a:hover, .inner-page .name a:hover {
 
 .inner-page .name a {
     text-decoration: none;
-    color: #328157;
+    color: #3fb7df;
 }
 
 .inner-page nav {
@@ -277,7 +281,7 @@ nav ul li a:hover, .inner-page .name a:hover {
 }
 
 #about-info a {
-    color: white;
+    color: #3fb7df;
     font-size: 16px;
 }
 
@@ -303,7 +307,7 @@ footer {
     margin-top: 50px;
     margin-bottom: 10px;
     margin-left: 15px;
-    color: rgb(255, 255, 255, 0.70);
+    color: #3fb7df;
     text-align: center;
 }
 
